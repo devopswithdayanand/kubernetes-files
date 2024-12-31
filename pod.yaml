@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: demo-web
+spec:
+  containers:
+  - name: penbox
+    image: nginx
+    ports:
+    - containerPort: 80
